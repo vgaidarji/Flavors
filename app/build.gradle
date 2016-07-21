@@ -17,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        volley {
+            // customize application name in resources
+        }
+        retrofit {
+            // customize application name in resources
+        }
+    }
 }
 
 dependencies {
